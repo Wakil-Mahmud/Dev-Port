@@ -9,17 +9,19 @@ h1{
 .h1color-1{
     color: orange;
 }
-section{
+.fit-body{
     display: flex;
     margin-bottom: 100px;
 }
+
 .h-w-1{
     width: 50%;
-    padding-left: 5%;
-    padding-right: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 .h-w-1 img{
     width: 100%;
+
 }
 .li-bu{
     text-decoration: none;
@@ -38,4 +40,46 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+p{
+    text-align: justify;
+}
+
+.forsecback{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.colorek{
+    color: dodgerblue;
+}
+
+.forboxshadow{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.textfix{
+        text-align: center;
+}
+
+.bor1{
+        border-left: 7px solid;
+        border-image: linear-gradient(salmon, tomato);
+        border-image-slice: 1;
+
+}
+
+.bor2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+.bor3{
+        border-left: 7px solid;
+        border-image: linear-gradient(black, rgb(134, 134, 134));
+        border-image-slice: 1;
+
 }
